@@ -864,6 +864,8 @@ margin-top: 12rem;
     .nav{
       font-size:1.0525rem ;
       margin:0 -10px 0 400px;
+      position: fixed;
+      top: 0;
     
     }
     .nav ul{
@@ -1084,10 +1086,11 @@ margin-top: 12rem;
       align-items: baseline;
     
     }
-    .Experience-text{
+    .Experience-text {
       margin:0px 40px 64px 40px;
       width: 630px;
       margin-left: 100px;
+     
     }
     .first-line {
       display:flex ;
@@ -1096,6 +1099,7 @@ margin-top: 12rem;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       font-size: 0.9605rem;
       margin-left: 100px;
+      
      
     }
     .first-line h3 {
@@ -1114,7 +1118,7 @@ margin-top: 12rem;
       color: var(--color-secondary);
       margin-left: 100px;
       position: relative;
-      right: 50px;
+      right: 20px;
     }
     
     .lineI{
@@ -1125,6 +1129,10 @@ margin-top: 12rem;
       position: relative;
       left: 70px;
     
+    }
+    .left-text{
+      position: relative;
+      right:30px;
     }
     .view-more{
      display: flex;
@@ -1160,7 +1168,14 @@ margin-top: 12rem;
     top: 250px;
     
     }
-    
+    .text22{
+      position: relative;
+      left: 20px;
+    }
+    .tit50{
+      position: relative;
+      left: 40px;
+    }
     @media (max-width: 1000px) {
       .header-area {
         font-size: 16px;
